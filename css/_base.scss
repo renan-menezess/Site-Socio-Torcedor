@@ -1,8 +1,8 @@
-a {
-    color: bold;
-    cursor: pointer;
-    &:houver{
-        color:gray;
-    }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin boundaries() {
+
 }
 
