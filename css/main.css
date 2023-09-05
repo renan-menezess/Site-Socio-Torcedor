@@ -1,0 +1,22 @@
+a {
+  color: bold;
+  cursor: pointer;
+}
+a:houver {
+  color: gray;
+}
+
+.header-link {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+.header-link a {
+  color: bold;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  color: bold;
+}/*# sourceMappingURL=main.css.map */

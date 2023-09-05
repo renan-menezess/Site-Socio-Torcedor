@@ -1,0 +1,10 @@
+.header-link {
+    $text-color: bold;
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}

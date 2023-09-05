@@ -1,0 +1,14 @@
+@import 'base';
+@import 'header';
+
+@mixin box-shadow($color) {
+    box-shadow: 2px 2px 4px -2px rgba($alpha: 0.6)
+}
+
+$text-color: bold;
+body {
+    background-color: #fff;
+    color: $text-color;
+}
+
+
