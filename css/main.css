@@ -11,10 +11,9 @@ body {
   gap: 2rem;
   list-style-type: none;
   margin-left: 1rem;
-  font-size: 12pt;
 }
 .header-link a {
-  color: #5f5f5f;
+  color: #202020;
   cursor: pointer;
   align-items: center;
   text-decoration: none;
@@ -24,15 +23,12 @@ body {
   font-size: 16px;
   padding: 10px;
   margin-top: 1.5rem;
-  color: var(--menu-itens-color);
-  background-color: var(--menu-itens-background);
   display: flex;
   align-items: flex-end;
-  background-color: var(--menu-active-background);
-  border-bottom: 3px solid #a11116;
+  transition: 0.3s;
 }
 .header-link a:houver {
-  color: #a8a8a8;
+  color: #bbbbbb;
 }
 
 .header-nav {
