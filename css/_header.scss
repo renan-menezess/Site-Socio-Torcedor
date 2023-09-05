@@ -3,13 +3,17 @@ $text-color2: #a8a8a8;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.content-header {
+    border-bottom: 1px solid #5f5f5f;
+}
 
 .header-link {
     gap: 2rem;
     list-style-type: none;
     margin-left: 1rem;
     font-size: 12pt;
-    
+
+
     a {
         color: $text-color;
         cursor: pointer;
@@ -20,15 +24,20 @@ $text-color2: #a8a8a8;
         font-weight: 400;
         font-size: 16px;
         padding: 10px;
+        margin-top: 1.5rem;
         color: var(--menu-itens-color);
         background-color: var(--menu-itens-background);
         display: flex;
         align-items: flex-end;
-
+        background-color: var(--menu-active-background);
+        border-bottom: 3px solid #a11116;
+        
         &:houver {
             color: $text-color2;
         }
     }
+
+    
 
 }
 
@@ -51,10 +60,15 @@ $text-color2: #a8a8a8;
 }
 
 .numbers-socio {
-    font-size: 20px;
+    font-size: 20pt;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    height: 100%;
+    margin-top: 1.5rem;
+}
+
+.section-header {
+    grid-template: auto auto/auto ;
+    grid-gap: 15px;
 }
 
